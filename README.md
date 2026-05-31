@@ -187,7 +187,7 @@ RABBITMQ_URL=amqp://localhost:5672
 VITE_API_URL=http://localhost:3000
 ```
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 | Метод | Endpoint | Описание |
@@ -275,7 +275,7 @@ mutation {
 }
 ```
 
-## 🧪 Тестирование
+## Тестирование
 
 ### Backend тесты
 ```bash
@@ -345,7 +345,7 @@ task-manager/
 └── README.md
 ```
 
-## 🎯 Реализованные практики
+## Реализованные практики
 
 ### Практика 25: Инструменты сборки (Vite/Webpack)
 - ✅ Настроен Vite для сборки
@@ -377,7 +377,7 @@ task-manager/
 - ✅ Тесты с покрытием >50%
 - ✅ README документация
 
-## 🔐 Безопасность
+## Безопасность
 
 - Пароли хешируются с помощью **bcrypt** (salt rounds: 10)
 - JWT токены с ограниченным временем жизни
@@ -385,7 +385,7 @@ task-manager/
 - Валидация входных данных
 - Защищённые маршруты (middleware)
 
-## 📊 Производительность
+## Производительность
 
 ### Оптимизация Frontend
 - **Lazy Loading**: компоненты загружаются по требованию
@@ -405,7 +405,7 @@ task-manager/
 - GraphQL сервер работает отдельно от REST API (порт 4000)
 - Требуется PostgreSQL 15+
 
-## 🤝 Вклад
+## Вклад
 
 1. Fork репозиторий
 2. Создайте feature branch (`git checkout -b feature/AmazingFeature`)
@@ -413,15 +413,11 @@ task-manager/
 4. Push в branch (`git push origin feature/AmazingFeature`)
 5. Откройте Pull Request
 
-## 📄 Лицензия
+## Авторы
 
-MIT License - см. файл [LICENSE](LICENSE) для деталей.
+- **Баксаров Богдан** - [your-github](https://github.com/kensh1nGG)
 
-## 👥 Авторы
-
-- **Баксаров Богдан** - *Initial work* - [your-github](https://github.com/kensh1nGG)
-
-## 📚 Полезные ссылки
+## Полезные ссылки
 
 - [React Documentation](https://react.dev/)
 - [Vite Guide](https://vitejs.dev/guide/)
